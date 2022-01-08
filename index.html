@@ -215,8 +215,10 @@ width: 50%;
 
 }
 .stop{
-    width: auto;
-    height: auto;
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+
 }
 .what{
     padding: 0px 0px 0px 0px;
@@ -326,6 +328,11 @@ footer{
 .photot{
    display: block;
 }
+.ww{
+    width: 100%;
+  max-width: 200px;
+  height: auto;
+}
 .blog{
     width: 90%;
 }
@@ -348,7 +355,24 @@ footer{
     width: 30%;
 }
 }
+@media screen and (max-width: 470px){
 
+.ww{
+    width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+}
+@media screen and (max-width: 370px){
+    .getmid{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+   
+    
+
+}
+}
     </style>
 </head>
 <body>
@@ -419,12 +443,12 @@ footer{
                     </div>
                     <div class="photot  flex1">
                         <div class="photo1 flex1">
-                        <img class="imgspace" src="space\project-image1.jpg" alt="">
-                        <img class="imgspace" src="space\project-image2.jpg" alt="">
+                            <img class="imgspace ww  " src="space\project-image1.jpg" alt="">
+                            <img class="imgspace ww " src="space\project-image2.jpg" alt="">
                     </div>
                         <div class="photo2 flex1">
-                        <img class="imgspace" src="space\project-image3.jpg" alt="">
-                        <img class="imgspace" src="space\project-image4.jpg" alt="">
+                        <img class="imgspace ww " src="space\project-image3.jpg" alt="">
+                        <img class="imgspace ww " src="space\project-image4.jpg" alt="">
                         </div>
                     </div>
                 </div>
